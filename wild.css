@@ -1,0 +1,225 @@
+#navbar {
+    display: flex;
+    position: sticky;
+    background-color: rgb(210, 241, 163);
+}
+#navbar h3 {
+    font-size: 2.5rem;
+    font-family: "Goblin One", cursive;
+    padding: 7px;
+    margin: 20px;
+    color: green;
+    margin-right: 190px;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    
+}
+#navbar img {
+    height: 100px;
+    width: 100px;
+    margin-left: 5px;
+    margin-top: 3px;
+    border-radius: 50px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgb(59, 17, 17);
+    border-image: initial;
+    
+}
+.rotate {
+    animation: rotation 8s infinite linear;
+  }
+  
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
+.btn {
+    font-size: 2rem;
+    background-color: orange;
+    font-family: "Goblin One", cursive;
+    width: 757px;
+    cursor: pointer;
+    border-radius: 0px;
+    padding: 8px;
+    margin: 0px;
+}
+.btn:hover{
+    background-color: rgb(226, 161, 41);
+}
+.btn:visited{
+    background-color: green;
+}
+#search {
+    float: right;
+    width: 150px;
+    padding-top: 2px;
+    padding-left: 20px;
+    margin-top: 13px;
+    margin-right: 2px;
+    font-size: 1rem;
+    justify-content: right;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    border-image: initial;
+    border-radius: 20px;
+   
+}
+#search:hover{
+    background-color: black;
+    font-size: large;
+    width: 200px;
+    color: azure;
+}
+.back img {
+    height: 590px;
+    width: 752px;
+    
+    border-style: solid;
+    border-image: initial;
+    margin-bottom: 0px;
+}
+.back h3{
+    font-size: 3rem;
+    text-align: center;
+    margin: 0px;
+    font-style: italic;
+    color: rgb(5, 133, 126);
+    background-color: rgb(188, 218, 108);
+}
+.work{
+    background-color: rgb(22, 20, 20);
+}
+.work h3{
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 10px;
+    font-family: "Goblin One", cursive;
+    color: rgb(227, 250, 23);
+}
+.para{
+    
+    font-size: 1.5rem;
+    width: 900px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 300px;
+    margin-top: 30px;
+    font-family: 'Girassol', cursive;
+   color: aquamarine;
+}
+.pg{
+margin-top: 5px;
+}
+.pic{
+    margin-top: 70px;
+    height: 1200px;
+}
+.pic img{
+    height: 200px;
+    width: 200px;
+    display: inline;
+    margin-left: 250px;
+    margin-top: 3px;
+    border-radius: 120px;
+    border: 6px solid pink;
+}
+.pic p{
+    justify-content: center;
+    text-align: center;
+    color: antiquewhite;
+    font-size: 1.5rem;
+    display: inline;
+    float: right;
+    width: 600px;
+    margin-right: 400px;
+    margin-left: 10px;
+    margin-top: 50px;
+    
+}
+#work{
+    background-color: blanchedalmond;
+}
+#work h3{
+    font-size: 3rem;
+    text-align: center;
+    font-family: "Goblin One", cursive;
+    margin-top: 10px;
+    color: brown;
+    text-underline-position: below;
+}
+#work img{
+    height: 300px;
+    width: 300px;
+    margin: 20px 20px 10px 30px;
+border: 10px double brown;
+}
+.connect{
+    background-color:rgb(181, 250, 227);
+}
+.connect h4{
+    font-size: 2rem;
+    text-align: center;
+       margin-top: 20px;
+       margin-bottom: 20px;
+    justify-content: center;
+    font-family: "Goblin One", cursive;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    justify-content: center;
+    border-radius: 50px;
+  }
+  .fa:hover {
+    opacity: 0.7;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    margin-left: 450px;
+  }  
+  .fa-yahoo {
+    background: #430297;
+    color: white;
+  }
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #ce1596;
+    color: white;
+  }
